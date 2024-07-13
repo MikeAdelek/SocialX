@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .navbar__link:hover {
+    color: #004197;
+    transition: all 0.4s;
+  }
+
+  .navbar__link::after {
+    position: absolute;
+    content: '';
+    background-color: #004197;
+    height: 3px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    scale: 0;
+    transform-origin: left;
+    transition: all 0.4s;
+  }
+
+  .navbar__link:hover::after{
+    scale: 1;
+  }
+
+  .macc{
+    font-family: 'Monotype-Corsiva';
+    font-style: italic;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    color: #004197;
+  }
+}
+
