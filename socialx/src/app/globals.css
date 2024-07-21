@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer components{
+  body{
+    font-family: 
+    'Montserrat';
+  }
+
   .navbar__link:hover {
     color: #004197;
     transition: all 0.4s;

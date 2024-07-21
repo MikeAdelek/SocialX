@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='Header-Main hidden lg:block'>
       <nav className="bg-white-50  border-b border-gray-200 dark:bg-white-700">
         <div className="max-w-screen-xl px-4 py-4 mx-auto">
-          <div className="flex items-center justify-between mx-auto py-2">
+          <div className="flex items-center justify-between">
             <BsSearch />
             <Link className='navbar__link relative' href='#'>
                 Shop
@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link className='navbar__link relative' href='#'>
               Essentials
             </Link>
-            <Link className='navbar__link relative macc w-48' href='#'>
+            <Link className='navbar__link relative macc w-24' href='#'>
               <span className='text-[#E2342D]'>Macc</span> Essentials
             </Link>
             <Link className='navbar__link relative' href='#'>
